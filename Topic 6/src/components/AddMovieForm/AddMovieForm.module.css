@@ -1,0 +1,57 @@
+.container {
+    padding: 1rem;
+}
+.add_movie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.add_movie_kanan {
+    padding: 0.03rem;
+    text-align: center;
+}
+.add_movie_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+.add_movie_form_header {
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+}
+.add_movie_form_content {
+    padding: 5px;
+    text-align: left;
+}
+.add_movie_form_label {
+    font-size: 18px;
+    color: black;
+}
+.add_movie_form_input {
+    width: 100%;
+    height: 2rem;
+    border: ipx solid blue;
+    border-radius: 10px;
+}
+.add_movie_form_btn {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(98, 129, 228);
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .add_movie {
+        flex-direction: row;
+    }
+    .add_movie_kanan {
+        flex-basis: 50%;
+    }
+    .add_movie_kiri {
+        flex-basis: 50%;
+    }
+}
