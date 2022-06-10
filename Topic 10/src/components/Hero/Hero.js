@@ -36,7 +36,7 @@ function Hero() {
           <h2>{movie.Title}</h2>
           <h3>Genre: {movie.Genre}</h3>
           <p>{movie.Plot}</p>
-          <Button>Watch</Button>
+          <Button sm>Watch</Button>
         </div>
         <div>
           <img
