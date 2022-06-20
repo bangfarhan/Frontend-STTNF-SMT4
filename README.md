@@ -1,1 +1,0 @@
-# Frontend-STTNF-SMT4
